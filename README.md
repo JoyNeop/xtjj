@@ -58,6 +58,8 @@ The last means `/[0-9A-F]{6}-[0-9A-F]{6}/`.
 
 The 2 colors are foreground and background colors, respectively; separated with a hyphen.
 
+Additionally, the background can be `transparent`.
+
 ## Styling
 
 The `id` of the container element is `xtjj-4270203835628303`. You may write your custom styles.
