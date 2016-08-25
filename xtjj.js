@@ -29,8 +29,8 @@
                 cfo.horizontalPlacement = splited[1].split('-')[1];
                 cfo.positionalDimensions = 'top: 30px; left: 10px;'.replace('top', cfo.verticalPlacement).replace('left', cfo.horizontalPlacement);
             };
-            cfo.color = window.palette[splited[2].split('-')[0]] || window.splited[2].split('-')[0];
-            cfo.backgroundColor = window.palette[splited[2].split('-')[1]] || splited[2].split('-')[1];
+            cfo.color = window.palette[splited[2].split('-')[0]] || ('#' + window.splited[2].split('-')[0]);
+            cfo.backgroundColor = window.palette[splited[2].split('-')[1]] || ('#' +splited[2].split('-')[1]);
             return cfo;
         };
         var renderDom = function (configObj, svg) {
