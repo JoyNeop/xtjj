@@ -7,7 +7,7 @@ This is an addon.
 ### 1. Include Script
 
 ```
-<script src="https://xtjj-cdn.neop.me/xtjj.js"></script>
+<script src="https://cdn.neop.me/xtjj/xtjj.js"></script>
 ```
 
 ### 2. Add Meta Tag
